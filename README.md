@@ -1,4 +1,5 @@
 <h3>WWCode-Kingston-WebDev-Study-Group</h3>
+<p>Website Development Study Group for WWCode Kingston.</p>
 
 
 
