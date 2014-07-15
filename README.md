@@ -16,7 +16,7 @@ HTML Tag Reference: http://www.w3schools.com/tags/
 Practice Your Code
 http://jsfiddle.net: You can write your code in the respective areas and "run" it to see the results.
 
-Please have these downloaded for our next meetup.
+<h5>Please have these downloaded for our next meetup.</h5>
 
 Free Code Editors: 
 http://notepad-plus-plus.org 
@@ -27,7 +27,7 @@ xampp allows you to run code on you local like you would on a live server.
 https://www.apachefriends.org
 
 
-Great Places to learn HTML/CSS Online
+<strong>Great Places to learn HTML/CSS Online</strong>
 
 1. http://www.codecademy.com      (FREE)
 2. http://www.youtube.com/        (FREE)
