@@ -1,0 +1,14 @@
+This assignment is due on our next meet up. 
+
+
+Task #1: Create a basic HTML document 
+
+Task #2: Write your name in a heading tag.
+
+Task #3: Use your favourite colour in hexadecimal format as the text colour for your name.
+
+Task #4: Write 2 paragraphs about yourself.
+
+Task #5: Create an ordered list of up to 5 of your favourite things.
+
+Bonus: Research how to add an image to your HTML & add one of yourself to your HTML document.
