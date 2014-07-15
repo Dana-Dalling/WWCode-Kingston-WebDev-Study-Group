@@ -3,9 +3,9 @@ WWCode-Kingston-WebDev-Study-Group
 
 Website Development Study Group for WWCode Kingston
 
-Resources
+<h2>Resources</h2>
 
-HTML/CSS Resources
+<h3>HTML/CSS Resources</h3>
 
 Please click each properties to see the example.
 
