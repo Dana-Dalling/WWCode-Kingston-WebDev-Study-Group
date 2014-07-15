@@ -1,4 +1,4 @@
-WWCode-Kingston-WebDev-Study-Group
+<h2>WWCode-Kingston-WebDev-Study-Group</h2>
 ==================================
 
 Website Development Study Group for WWCode Kingston
