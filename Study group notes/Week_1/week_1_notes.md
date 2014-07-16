@@ -10,7 +10,7 @@ Eg:
 
 Structure of a basic html webpage:
 
-``` haxe
+``` 
   <html>
     <head>
       <title>My Page</title>
