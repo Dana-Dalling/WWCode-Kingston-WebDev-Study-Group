@@ -67,15 +67,15 @@ the element or its contents in some way.
 
 ID example
 ```
-#about{
-    Background: red;
+#about {
+    background: red;
 }
 ```
 
 Class example
 ```
-.textStyle{
-  Color: white;
+.textStyle {
+  color: white;
 }
 ```
 Here's a great resource with more details: http://www.c4learn.com/css/css-syntax/
