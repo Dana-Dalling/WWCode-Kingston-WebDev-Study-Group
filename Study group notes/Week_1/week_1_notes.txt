@@ -19,7 +19,6 @@ Structure of a basic html webpage:
 </html>
 
 
-
 Assigning value to a div
 Eg: <div id="about"></div>
 
@@ -44,25 +43,28 @@ The most basic precedence you should understand, however, is that id selectors t
 If you had this:
 
 <p id="intro" class="foo">Hello!</p>
+
 and:
 
 #intro { 
    color: red;
 }
 .foo { 
-  color: blue;
+  color: blue; 
  }
 The text would be red because the id selector takes precedence over the class selector.
+
+Here's a great resource: http://www.c4learn.com/css/css-syntax/
 
 IDs are an incredibly powerful tool. An element with an ID can be the target of a piece of JavaScript that manipulates 
 the element or its contents in some way. 
 
-ID attribute
+ID example
 #about{
     Background: red;
 }
 
-Class attribute
+Class example
 .textStyle{
   Color: white;
 }
