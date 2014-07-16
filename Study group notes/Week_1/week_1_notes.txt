@@ -19,9 +19,10 @@ Structure of a basic html webpage:
 </html>
 
 
-Assigning value to a div
+Assigning value to a div ID attribute:
 Eg: <div id="about"></div>
 
+For the class attribute:
 Eg: <div class="textStyle"></div>
 
 CSS: Cascading Style Sheets (CSS) is a style sheet language used for describing the look and formatting of a document 
@@ -29,30 +30,31 @@ written in a markup language.
 
 ID vs Class
 
-ids must be unique where as class can be applied to many things. In CSS, ids look like #elementID and class elements 
+IDs must be unique where as class can be applied to many tags. In CSS, IDs look like #elementID and class elements 
 look like .someClass
 
-In general, use id whenever you want to refer to a specific element and class when you have a number of things that 
-are all alike. For instance, common id elements are things like header, footer, sidebar. Common class elements are 
-things like highlight or external-link.
+In general, use ID whenever you want to refer to a specific element and class when you have a number of things that 
+are all alike. For instance, ID elements are things like header, footer, sidebar. Common class elements are 
+things like lists or using the same class to apply the same rules to multiple tags.
 
 It's a good idea to read up on the cascade and understand the precedence assigned to various selectors: 
 http://www.w3.org/TR/CSS2/cascade.html
 
-The most basic precedence you should understand, however, is that id selectors take precedence over class selectors. 
+The most basic precedence you should understand, however, is that ID selectors take precedence over class selectors. 
 If you had this:
 
 <p id="intro" class="foo">Hello!</p>
 
-and:
+and the CSS rules for the above tag would be:
 
 #intro { 
-   color: red;
+  color: red;
 }
 .foo { 
   color: blue; 
- }
-The text would be red because the id selector takes precedence over the class selector.
+}
+
+The text would be red because the ID selector takes precedence over the class selector.
 
 IDs are an incredibly powerful tool. An element with an ID can be the target of a piece of JavaScript that manipulates 
 the element or its contents in some way. 
