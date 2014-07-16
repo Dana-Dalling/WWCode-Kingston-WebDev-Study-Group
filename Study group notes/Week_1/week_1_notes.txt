@@ -54,8 +54,6 @@ and:
  }
 The text would be red because the id selector takes precedence over the class selector.
 
-Here's a great resource: http://www.c4learn.com/css/css-syntax/
-
 IDs are an incredibly powerful tool. An element with an ID can be the target of a piece of JavaScript that manipulates 
 the element or its contents in some way. 
 
@@ -68,3 +66,5 @@ Class example
 .textStyle{
   Color: white;
 }
+
+Here's a great resource with more details: http://www.c4learn.com/css/css-syntax/
