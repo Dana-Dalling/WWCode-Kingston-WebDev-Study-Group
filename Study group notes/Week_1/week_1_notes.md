@@ -4,7 +4,7 @@ HTML stands for Hyper Text Markup Language.
 
 HTML defines the structure and layout of a Web document by using a variety of tags and attributes. The correct structure 
 for an HTML document starts with ```<html><head>```(enter here what document is about)```<body>``` and ends with ```</body></html>```. 
-All the information you'd like to include in your Web page fits in between the ```body``` and ```body``` tags.
+All the information you'd like to include in your Web page fits in between the ```<body>``` and ```</body>``` tags.
 
 Eg:
 
