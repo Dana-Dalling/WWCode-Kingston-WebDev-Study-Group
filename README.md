@@ -24,7 +24,7 @@ http://notepad-plus-plus.org
 OR
 http://aptana.com
 
-xampp allows you to run code on you local like you would on a live server. 
+xampp allows you to run code on your local like you would on a live server. 
 https://www.apachefriends.org
 
 

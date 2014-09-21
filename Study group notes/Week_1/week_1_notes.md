@@ -1,29 +1,34 @@
-Introduction to HTML/CSS
+<h4>Introduction to HTML/CSS</h4>
 
 HTML stands for Hyper Text Markup Language.
 
 HTML defines the structure and layout of a Web document by using a variety of tags and attributes. The correct structure 
-for an HTML document starts with <HTML><HEAD>(enter here what document is about)<BODY> and ends with </BODY></HTML>. 
-All the information you'd like to include in your Web page fits in between the <BODY> and </BODY> tags.
+for an HTML document starts with ```<html><head>```(enter here what document is about)```<body>``` and ends with ```</body></html>```. 
+All the information you'd like to include in your Web page fits in between the ```<body>``` and ```</body>``` tags.
 
 Eg:
 
 Structure of a basic html webpage:
-<html>
-<head>
- <title>My Page</title>
-</head>
-<body>
- Hello World!
-</body>
-</html>
 
-
+``` 
+  <html>
+    <head>
+      <title>My Page</title>
+    </head>
+      <body>
+        Hello World!
+      </body>
+  </html>
+```
 Assigning value to a div ID attribute:
-Eg: <div id="about"></div>
+```
+<div id="about"></div>
+``` 
 
 For the class attribute:
-Eg: <div class="textStyle"></div>
+``` 
+<div class="textStyle"></div>
+```
 
 CSS: Cascading Style Sheets (CSS) is a style sheet language used for describing the look and formatting of a document 
 written in a markup language.
@@ -43,30 +48,34 @@ http://www.w3.org/TR/CSS2/cascade.html
 The most basic precedence you should understand, however, is that ID selectors take precedence over class selectors. 
 If you had this:
 
+```
 <p id="intro" class="foo">Hello!</p>
-
+```
 and the CSS rules for the above tag would be:
-
+```
 #intro { 
   color: red;
 }
 .foo { 
   color: blue; 
 }
-
+```
 The text would be red because the ID selector takes precedence over the class selector.
 
 IDs are an incredibly powerful tool. An element with an ID can be the target of a piece of JavaScript that manipulates 
 the element or its contents in some way. 
 
 ID example
-#about{
-    Background: red;
+```
+#about {
+    background: red;
 }
+```
 
 Class example
-.textStyle{
-  Color: white;
+```
+.textStyle {
+  color: white;
 }
-
+```
 Here's a great resource with more details: http://www.c4learn.com/css/css-syntax/
