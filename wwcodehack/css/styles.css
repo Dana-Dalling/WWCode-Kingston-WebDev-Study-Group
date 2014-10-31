@@ -128,3 +128,80 @@ body{
 .tweet-stats-bold{
   font-weight: bold;
 }
+
+#tweet-box{
+  background: #fafafa;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+#tweet-box textarea{
+  width: 100%
+}
+
+.submitButton{
+  background: #14b3a7;
+  width: 100%;
+  border: none;
+  color: #ffffff;
+  border-radius: 3px;
+  padding: 5px;
+}
+
+#tweets{
+  background: #fafafa;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.tweeter-image img{
+  width: 60px;
+  border-radius: 50%;
+  border: 5px solid #a8ebe6;
+}
+
+.tweeter-image{
+  float: left;
+  width: 80px;
+}
+
+.tweeter-post{
+  float: left;
+}
+
+.tweet-links ul li{
+  list-style: none;
+  padding: 5px 30px 5px 30px;
+  float: left;
+  text-align: left;
+}
+
+.tweet-links ul{
+  padding: 0;
+  margin: 0;
+}
+
+.tweet-links ul li:first-child{
+  padding-left: 0;
+
+}
+
+a{
+  color: #14b3a7;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #ff6600;
+}
+
+.tweet-timer{
+  position: absolute;
+   right: 0;
+   top: 0;
+   color: #ccc;
+}
+
+.tweet-content{
+   position: relative;
+}
